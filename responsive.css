@@ -1,0 +1,149 @@
+@media (max-width: 600px) {
+    /* input{
+        display: none;
+    } */
+    main{
+        padding: 0;
+    }
+    header img{
+      width: 100px !important;
+      margin-right: 8px;
+    }
+    button {
+      display: none !important;
+    }
+
+    .slider-pc{
+      display: none;
+    }
+    .slider-mob{
+      display: block;
+    }
+}
+
+@media (max-width: 1192px){
+    header section{
+        overflow-x: scroll;
+    justify-content: normal;
+    }
+}
+
+@media (max-width: 500px) {
+  header input{
+    display: block;
+    font-size: normal;
+    line-height: auto;
+    font-size: 13px;
+  }
+  header nav{
+    position: fixed;
+    right: 0;
+    width: 0;
+    max-width: 500px;
+    overflow: hidden;
+    background: white;
+    
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    display: block;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left !important;
+    transition: all .1s;
+    box-shadow: 0 0 50px rgba(0, 0,0.3);
+  }
+  .menuOppen{
+    width: 70%;
+    padding-left: 10px;
+  }
+  header nav .card{
+    max-width: 90% !important;
+    width: 90% !important;
+    margin: 6px 3px;
+    background: #D6D6D6;
+    justify-content: left
+  }
+  header nav .card:nth-child(1){
+    margin-top: 70px;
+  }
+  header .menu-button{
+    display: block;
+    z-index: 3;
+  }
+  header input-group{
+    padding: 0px;
+  }
+  header button{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: auto;
+    background: aliceblue;
+    color: blue;
+    
+    margin: 9px 5px;
+  }
+  header button svg{
+    margin: 6px;
+  }
+  section.top-list{
+    padding: 0 10px;
+    overflow: scroll;
+    justify-content: space-between;
+    height: min-content;
+    margin: 0;
+    margin-top: 1px;
+  }
+  section.top-list .card{
+    width: auto;
+    margin: 0 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  section.top-list .card img{
+    width: 40px;
+  }
+  
+  section.top-list .card:nth-child(6) {
+    padding-right: 20px;
+  }
+  
+  .slider-pc{
+    display: none;
+  }
+  .slider-mob{
+    display: block;
+  }
+  
+  section.offer{
+    margin: 0;
+    display: block;
+    align-items: stretch;
+    border: none !important;
+    list-style: none;
+  }
+
+  section.suggest-1 h2{
+    font-weight: normal;
+  }
+
+  section{
+    font-size: 13px;
+  }
+  
+}
+
+
+@media (max-width: 300px) {
+  section.suggest-1 container{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.suggest-1 .card{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
