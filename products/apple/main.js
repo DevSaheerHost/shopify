@@ -45,7 +45,7 @@ $(document).ready(function() {
 
   $(".login").click(function() {
     localStorage.clear()
-    document.location = "../../../auth/login/"
+    document.location = "../../auth/login/"
   })
   
     $('.menu-button').click(function () {
