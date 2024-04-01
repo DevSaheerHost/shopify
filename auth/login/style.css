@@ -114,7 +114,7 @@ div.social{
 }
 div.social .card{
     background-color: rgb(235, 235, 235);
-     background-image: url("../../asset/icons/apple.png");
+     background-image: url("../../assets/icons/apple.png");
      height: 50px;
      width: calc(100%/3);
      background-position: center;background-repeat: no-repeat;
@@ -124,11 +124,11 @@ div.social .card{
 }
 
 div.social .card:nth-child(2){
-    background-image: url("../../asset/icons/facebook.png");
+    background-image: url("../../assets/icons/facebook.png");
 }
 
 div.social .card:nth-child(3){
-    background-image: url("../../asset/icons/google.png");
+    background-image: url("../../assets/icons/google.png");
 }
 
 div.social .card:hover{
