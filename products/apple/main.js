@@ -30,14 +30,14 @@ document.querySelector('#nav_cart').innerHTML+=`
         }
         #nav_cart::after{
           content: '!';
-          width:10px;
-          height:10px;
+          width:15px;
+          height:15px;
           display:flex;
           align-items:center;
           justify-content: center;
           position : absolute;
-          top:-10px;
-          right:-10px;
+          top:-6px;
+          right:-6px;
           box-shadow: 0 0 5px black;
           padding: 3px;
           border-radius: 100px;
