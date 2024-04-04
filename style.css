@@ -46,7 +46,7 @@ header container div:nth-child(1){
     width: 100% !important;
 }
 .logo> img{
-    width: 140px;
+    transform: scale(1.3);
 }
 
 
