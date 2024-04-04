@@ -71,3 +71,28 @@ window.addEventListener('online', () => {
 
   document.querySelector('body').className=''
 })
+
+
+document.querySelector('#nav_cart').innerHTML+=`
+        <style>
+        #nav_cart{
+          position:relative;
+        }
+        #nav_cart::after{
+          content: '!';
+          width:10px;
+          height:10px;
+          display:flex;
+          align-items:center;
+          justify-content: center;
+          position : absolute;
+          top:-10px;
+          right:-10px;
+          box-shadow: 0 0 5px black;
+          padding: 3px;
+          border-radius: 100px;
+          background:red;
+          color:white;
+          font-size:10px;
+        }
+        </style>`
