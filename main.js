@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function () {
   console.log('ready')
   document.title="Shopify";
@@ -6,12 +9,15 @@ $(document).ready(function () {
       let dp = localStorage.getItem("shopify-dp");
       document.querySelector(".dp").innerHTML = `
         <img src="` + dp + `">`
+
+        document.querySelector(".dp1").src=dp
         
     }
     
     let userName = localStorage.getItem("shopify-name")
     if (userName!=null) {
       document.querySelector("#name_label").innerText = userName
+      document.querySelector(".name_label").innerText = userName
     }
   
     $(".login").hide(100);
@@ -35,6 +41,12 @@ $(document).ready(function () {
   function init() {
       $('.main-container').fadeIn(500)
       $('loading').fadeOut(200)
+
+      $(".product_card").css({"transform": "translateY(100px)", "opacity": "0"})
+      setTimeout(slideUp, 300)
+  }
+  function slideUp(){
+    $(".product_card").css({"transform": "translateY(-40px)", "opacity": "1"})
   }
   
   
@@ -50,7 +62,12 @@ $(document).ready(function () {
   })
   
   
+
+  $("#accountCard").click(function(){
+    $(".accountcard").toggle(200)
+  })
   
+
     
   
 })
@@ -96,3 +113,6 @@ document.querySelector('#nav_cart').innerHTML+=`
           font-size:10px;
         }
         </style>`
+
+
+    
