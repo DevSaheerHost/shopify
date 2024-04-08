@@ -196,5 +196,18 @@
 .logo img{
   margin: 0;
 }
+
+.accountcard{
+  top: 120px;
+  left: auto;
+  right: 19px;
+  margin: auto;
+}
   
+}
+
+@media (max-width: 320px) {
+  .flex{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
