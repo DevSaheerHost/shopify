@@ -424,9 +424,16 @@ section::-webkit-scrollbar {
     display: none;
 }
 
-
+.slider img{
+  object-fit: cover;
+}
 .slider-mob{
   display: none;
+  height: max-content !important;
+}
+.slider-mob img{
+  height: auto;
+  width: 100%;
 }
 
 
