@@ -135,7 +135,7 @@
   } */
 
   .product_section{
-    transform: translateY(100px);
+    transform: translateY(00px);
   }
 .slider{
   display: none;
@@ -145,7 +145,7 @@
   }
 
   .welcome_section{
-    transform: translateY(100px);
+    transform: translateY(00px);
   }
   
   section.offer{
