@@ -351,5 +351,13 @@ a {
     .three-card-wraper{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+
+    .three-card-wraper .card{
+        padding: 20px;
+    }
+    
+    .sec-mob-wraper .card:nth-child(2){
+        padding: 20px;
+    }
     
 }
