@@ -105,7 +105,7 @@
                 </div>
                 <div class="card google">
                     <div>
-                      <a href="#">
+                      <a href="./products/android/googlePixel/">
                       <img class="google" src="assets/icons/google.svg" alt="apple_">
                     </a>
                       <!-- <img src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100" alt="Grocery"> -->
@@ -182,51 +182,15 @@
               </style>
               
               
-              <div class="slider slider-pc" id="slider">
-                <div class="slides">
-                  <div class="slide"><img src="assets/adds/32_smart_acc_home_page_1349x.progressive.webp" alt="Image 1"></div>
-                  <div class="slide"><img src="assets/adds/32_smart_acc_home_page_1349x.progressive.webp" alt="Image 2"></div>
-                  <div class="slide"><img src="assets/adds/32_smart_acc_home_page_1349x.progressive.webp" alt="Image 3"></div>
-                  <!-- Add more slides as needed -->
-                </div>
+              <div class="banner-add-wrapper">
+                <img class="addImage" src="assets/adds/32_smart_acc_home_page_1349x.progressive.webp" alt="">
               </div>
               
-              <div class="slider slider-mob" id="slider">
-                <div class="slides">
-                  <div class="slide-mob"><img src="https://www.intex.in/cdn/shop/files/32-smart-acc-home-page_Mobile_736x.progressive.jpg?v=1700648870" alt="Image 1"></div>
-                  <div class="slide-mob"><img src="https://www.intex.in/cdn/shop/files/32-smart-acc-home-page_Mobile_736x.progressive.jpg?v=1700648870" alt="Image 2"></div>
-                  <div class="slide-mob"><img src="https://www.intex.in/cdn/shop/files/32-smart-acc-home-page_Mobile_736x.progressive.jpg?v=1700648870" alt="Image 3"></div>
-                  <!-- Add more slides as needed -->
-                </div>
-              </div>
               
-              <script>
-                let index = 0;
-                const slides = document.querySelectorAll(".slide");
-                
-                const slidesMob = document.querySelectorAll(".slide-mob");
-                
-                const numberOfSlides = slides.length;
-                
-               const numberOfSlidesMob = slidesMob.length;
-                
-                setInterval(() => {
-                  slides.forEach((slide) => {
-                    slide.style.transform = `translateX(-${index * 100}%)`;
-                  });
-                  index = (index + 1) % numberOfSlides;
-                }, 3000); // Change image every 3 seconds
-                
-                setInterval(() => {
-                  slidesMob.forEach((slide) => {
-                    slide.style.transform = `translateX(-${index * 100}%)`;
-                  });
-                  index = (index + 1) % numberOfSlides;
-                }, 3000); // Change image every 3 seconds
-                </script>
                 
                 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-              
+                <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>    
               <script src="main.js"></script>
               
               

@@ -134,18 +134,18 @@
     display: none;
   } */
 
-  .product_section{
-    transform: translateY(00px);
-  }
-.slider{
+  /* .product_section{
+    transform: translateY(100px);
+  } */
+/* .slider{
   display: none;
-}
+} */
   .slider img{
     height: 100% !important;
   }
 
   .welcome_section{
-    transform: translateY(00px);
+    transform: translateY(100px);
   }
   
   section.offer{
