@@ -177,10 +177,13 @@ a:-webkit-any-link {
     padding-bottom: 40px;
     border: 1px solid transparent;
     border-radius: 0.3rem;
+    transition: all .3s;
 }
 
 .selector__wizard .product:hover{
     border: 1px solid blue;
+    box-shadow: 0 0px 16px rgb(150, 149, 149);
+    scale: 1.03;
 }
 
 .selector__wizard .product__image-wrapper {
@@ -434,3 +437,25 @@ loading svg{
 .comming-soon{
     filter: grayscale(100%);
 }
+
+div.button{
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: medium;
+    border-radius: .3rem;
+    max-width: max-content;
+    padding: 6px 10px;
+    margin: auto;
+
+    transition: all .3s;
+}
+
+div.button:hover{
+    scale: 1.03;
+
+    box-shadow: 0 4px 8px gray;
+}
+
+/* .product:not( :hover) {
+    filter: grayscale(60);
+} */
